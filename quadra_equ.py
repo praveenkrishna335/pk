@@ -1,0 +1,8 @@
+a = int(input("Enter the A value : "))
+b = int(input("Enter the B value : "))
+c = int(input("Enter the C value : "))
+root = int((((b**2) - (4*a*c))**(1/2)))
+print(root)
+x = ((-b + (root)) / (2*a))
+y = ((-b - (root)) / (2*a))
+print("The quadratic answer is : ", x,y)
